@@ -1,0 +1,94 @@
+.left h1 span{
+    color: blue;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    list-style-type: none;
+    font-size: 27px;
+   
+}
+
+.btn{
+    background-color: rgb(31, 126, 227);
+    color:white;
+    font-size:27px;
+    margin-right:153px;
+    border-radius: 4px;
+    height: 35px;
+    width: 125px;
+    text-align: center;
+}
+.links a:hover{
+   
+    background-color: #440cfc;
+    
+}
+a{
+    text-decoration: none;
+}
+.center {
+    margin: 40px auto;
+}
+.main{
+    text-align: left;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.main .highlight {
+    color: #007bff;
+}
+
+.main p {
+    color: #666;
+    width: 46%;
+}
+.car-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 95%;
+    overflow-x: scroll;
+}
+
+.car {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 95%;
+    overflow-x: scroll;
+    list-style-type: none;
+}
+/* .car img{
+    width: 167px;
+    height:142px ;
+} */
+.car-item {
+    list-style: none;
+    height: 250px;
+}
+
+.car-item img {
+    border-radius: 15px;
+    height: 10%;
+}
+
+
+
+
